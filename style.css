@@ -212,3 +212,26 @@ body {
         padding: 5px 0;
     }
 }
+
+@media (max-width: 600px) {
+    .name-task .input {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #person-name, #task, #teammate-names, #due-date {
+        width: 100%;
+        max-width: none;
+    }
+
+    .task {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .right-side {
+        justify-content: flex-start;
+        padding: 5px 0;
+    }
+}
